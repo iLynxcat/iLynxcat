@@ -1,7 +1,4 @@
-type AwesomeSauce = {
-	isAwesome: boolean
-	isSauce: boolean
-}
+import type { AwesomeSauce } from "./types/sauce"
 
 const sauces = new Array<AwesomeSauce>(20).fill({
 	isAwesome: true,
